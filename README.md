@@ -11,7 +11,7 @@ Table of products which contains :
 
 # Sells
 
-Table of sells which contains :
+Table of sells whichS1²1Q contains :
 - id
 - name of shop
 - product id, foreign key which reference to id of product table

@@ -16,13 +16,15 @@ def add_sell() -> Response:
     data: Optional[Any]
     sell: Sell
     product: Optional[Product]
+    product_name: str
     res: Response
     try:
         data = request.json
         if data is not None:
             if "product_name" in data.keys() and not "product_id" in data.keys():
+                product_name = re.sub(r"\s+", " ", data["product_name"]).strip().lower()
                 product = (
-                    session.query(Product).filter_by(id=data["product_name"]).first()
+                    session.query(Product).filter_by(id=product_name).first()
                 )
                 if product is not None:
                     data["product_id"] = product.id
