@@ -1,5 +1,13 @@
 ### API for technical test for CircularX
 
+## How to launch
+
+Due to problem of networks between two containers. It need some operation :
+- Launch "docker-compose up" to launch a docker PostGreSQL with the correct table
+    - If you want use your personnel PostGreSQL, you could setup three environement variable to connect to other instance "USERNAME_DB", "PASSWORD_DB" and "DATABASE". The SQL script to create table and triggers is available in SQL folder
+- Launch "init_table.py" if you want to add the data.csv to SQL
+- Launch "api.py" to launch the API to manage SQL instance
+
 ## SQL
 
 # Products
