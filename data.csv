@@ -1,0 +1,31 @@
+id_vente,nom_produit,nom_magasin,date_vente,prix_vente
+1,   iPhone XR   ,Boulanger,2023-05-01, 550.99
+2,iphone 11,   Fnac,2023-05-02,720.50
+3,  Samsung  Galaxy S20,Backmarket,2023-05-03,400.00
+4,  HP Laptop   ,Boulanger,2023-05-04,899.99
+5,   MacBook Air  ,   Fnac,2023-05-05,1199.00
+6,iphone XR,Backmarket,2023-05-06,520.00
+7,  Samsung Galaxy S20   ,Boulanger,2023-05-07,390.00
+8,HP Laptop,   Fnac,2023-05-08,880.00
+9,  MacBook Air,Backmarket,2023-05-09,1150.00
+10,   iPhone 11   ,Boulanger,2023-05-10,730.00
+11,iphone XR,   Fnac,2023-05-11,530.00
+12,  Samsung Galaxy S20,Backmarket,2023-05-12,410.00
+13,  HP Laptop   ,Boulanger,2023-05-13,890.99
+14,   MacBook Air  ,   Fnac,2023-05-14,1180.50
+15,iphone 11,Backmarket,2023-05-15,710.00
+16,  Samsung Galaxy S20   ,Boulanger,2023-05-16,380.00
+17,HP Laptop,   Fnac,2023-05-17,870.00
+18,  MacBook Air,Backmarket,2023-05-18,1130.00
+19,   iPhone XR   ,Boulanger,2023-05-19,560.00
+20,iphone 11,   Fnac,2023-05-20,710.00
+21,  Samsung Galaxy S20,Backmarket,2023-05-21,390.00
+22,  HP Laptop   ,Boulanger,2023-05-22,899.00
+23,   MacBook Air  ,   Fnac,2023-05-23,1200.00
+24,iphone  XR,Backmarket,2023-05-24,530.00
+25,  Samsung Galaxy S20   ,Boulanger,2023-05-25,410.00
+26,HP  Laptop,   Fnac,2023-05-26,880.99
+27,  MacBook Air,Backmarket,2023-05-27,1150.50
+28,   iPhone 11   ,Boulanger,2023-05-28,740.00
+29,iphone XR,   Fnac,2023-05-29,540.00
+30,  Samsung Galaxy S20,Backmarket,2023-05-30,400.00

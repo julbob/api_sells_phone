@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+ postgredb:
+  image: postgres
+  ports:
+  - 5432:5432
+  environment:
+   POSTGRES_USER: admin
+   POSTGRES_PASSWORD: admin 
+   POSTGRES_DB: product
+  volumes:
+  - data:/var/lib/postgresql/data
+  - ./sql:/docker-entrypoint-initdb.d
+  healthcheck:
+   test: pg_isready -U admin -d product
+  networks:
+   - product
+#  web:
+#   build:
+#    context: .
+#    dockerfile: Dockerfile
+#   ports:
+#   - 8080:8080
+#   depends_on: 
+#    postgredb:
+#     condition: service_healthy
+#   networks:
+#    - product
+#   volumes:
+#   - ./:/app
+volumes:
+  data:
+networks:
+  product:
